@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FitBite — Diet Meals, Delivered to Your Door</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav wrap" id="mainNav">
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="fit bite">
+    </a>
+    
+    <!-- Hamburger button for mobile -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html"  aria-current="page">Home</a></li>
+      <li><a href="product.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta" id="navCta">
+      <a href="contact.html" class="btn btn-lime">Order Now</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ============================= HERO ============================= -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <span class="eyebrow">Door-Step Nutrition</span>
+        <h1>Eat like you train.<br><em>Skip the cooking.</em></h1>
+        <p class="hero-sub">Fresh, portioned diet meals — built around protein, carbs, healthy fats and vegetables — delivered straight to your door. Made for gym-goers who'd rather spend that hour on the last set, not the stove.</p>
+        <div class="hero-actions">
+          <a href="product.html" class="btn btn-lime">Browse Meal Boxes</a>
+          <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-box">
+          <span class="ring r1"></span>
+          <span class="ring r2"></span>
+          <div class="glyph">
+            <svg viewBox="0 0 100 100" fill="none" stroke="#EEF1E6" stroke-width="2.2">
+              <circle cx="50" cy="50" r="30"/>
+              <path d="M50 20 L50 30 M50 70 L50 80 M20 50 L30 50 M70 50 L80 50" stroke-linecap="round"/>
+              <path d="M38 55 Q50 40 62 55" stroke-linecap="round"/>
+              <circle cx="50" cy="50" r="6" fill="#C7FF4D" stroke="none"/>
+            </svg>
+          </div>
+          <span class="cap">Box 04 — Weekly Rotation</span>
+        </div>
+
+        <div class="hero-macro-float macro-strip">
+          <div class="macro-title"><span>Per Box</span><span>Avg.</span></div>
+          <div class="macro-row"><span class="k">Protein</span><span class="bal"><span style="width:78%"></span></span></div>
+          <div class="macro-row"><span class="k">Carbs</span><span class="bal"><span style="width:58%"></span></span></div>
+          <div class="macro-row"><span class="k">Fats</span><span class="bal"><span style="width:34%"></span></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- ============================ ABOUT/STORY ============================ -->
+  <section class="section">
+    <div class="wrap">
+      <div class="story">
+        <div class="story-side">
+          <span class="eyebrow">Why FitBite</span>
+          <h2>Nutrition that keeps up with your schedule</h2>
+          <div class="macro-strip">
+            <div class="macro-title"><span>Every Box Includes</span><span>Balance</span></div>
+            <div class="macro-row"><span class="k">Protein</span><span class="bal"><span style="width:82%"></span></span></div>
+            <div class="macro-row"><span class="k">Carbs</span><span class="bal"><span style="width:60%"></span></span></div>
+            <div class="macro-row"><span class="k">Healthy Fats</span><span class="bal"><span style="width:38%"></span></span></div>
+            <div class="macro-row"><span class="k">Vegetables</span><span class="bal"><span style="width:66%"></span></span></div>
+          </div>
+        </div>
+
+        <div class="story-copy">
+          <p>FitBite diet meal box is a modern and practical solution for people who want to eat healthy while managing a busy lifestyle. It provides freshly prepared meals that are designed to be nutritious, balanced, and satisfying. Each meal box includes a proper portion of protein, carbohydrates, healthy fats, and vegetables, helping individuals maintain their fitness goals and overall well-being. FitBite is especially useful for gym-goers, office workers, students, and anyone who wants to lose weight or follow a healthier routine without the stress of meal preparation.</p>
+          <p>One of the best features of FitBite is its convenience. The meals are ready to eat, saving time and effort while still offering quality nutrition. At the same time, the brand focuses on taste, ensuring that healthy food does not feel boring or bland. By combining flavor, freshness, and balanced nutrition, FitBite meal boxes encourage disciplined eating habits and make it easier for people to stay consistent with their diet plan. Overall, FitBite supports a healthier, more active, and organized lifestyle.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================ GALLERY ============================ -->
+  <section class="section" id="gallery">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">The Box</span>
+          <h2>A peek inside</h2>
+        </div>
+        <p class="muted">Every meal is prepped fresh, portioned properly, and built to keep you full and on-plan — no matter how busy the week gets.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <button type="button" class="gcell" data-caption="Natural Fresh Orgranic">
+          <img src="images/gallery1.jpg" alt="Placeholder photo — Grill Fish &amp; Brown Rice, replace with a real product photo">
+          <!-- <span class="label">Grill Fish &amp; Rice</span> -->
+          <span class="zoom-hint" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#EEF1E6" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3" stroke-linecap="round"/><path d="M11 8v6M8 11h6" stroke-linecap="round"/></svg>
+          </span>
+        </button>
+
+        <button type="button" class="gcell" data-caption="Healthy and Delicious">
+          <img src="images/gallery2.jpg" alt="Placeholder photo — Lamb Steak with Corn and White Rice, replace with a real product photo">
+          <!-- <span class="label">Lamb Steak &amp; Corn</span> -->
+          <span class="zoom-hint" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#EEF1E6" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3" stroke-linecap="round"/><path d="M11 8v6M8 11h6" stroke-linecap="round"/></svg>
+          </span>
+        </button>
+
+        <button type="button" class="gcell" data-caption="Better Diet - Better Health">
+          <img src="images/gallery3.jpg" alt="Placeholder photo — Cucumber and Onion Salad, replace with a real product photo">
+          <!-- <span class="label">Cucumber Salad</span> -->
+          <span class="zoom-hint" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#EEF1E6" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3" stroke-linecap="round"/><path d="M11 8v6M8 11h6" stroke-linecap="round"/></svg>
+          </span>
+        </button>
+
+        <button type="button" class="gcell" data-caption="Eat Clean - Live Stronger Always">
+          <img src="images/gallery4.jpg" alt="Placeholder photo — Steamed Chicken with Avocado, replace with a real product photo">
+          <!-- <span class="label">Steamed Chicken &amp; Avocado</span> -->
+          <span class="zoom-hint" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#EEF1E6" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3" stroke-linecap="round"/><path d="M11 8v6M8 11h6" stroke-linecap="round"/></svg>
+          </span>
+        </button>
+
+        <button type="button" class="gcell" data-caption="Every diet we offer is healthy">
+          <img src="images/gallery5.jpg" alt="Placeholder photo — This week's meal box, replace with a real product photo">
+          <!-- <span class="label">This Week's Box</span> -->
+          <span class="zoom-hint" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#EEF1E6" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3" stroke-linecap="round"/><path d="M11 8v6M8 11h6" stroke-linecap="round"/></svg>
+          </span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox: enlarges the clicked gallery image -->
+  <div class="lightbox" id="lightbox" hidden>
+    <div class="lightbox-figure">
+      <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Close enlarged image">&times;</button>
+      <img src="" alt="" id="lightbox-img">
+      <p class="lightbox-caption" id="lightbox-caption"></p>
+    </div>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" style="max-width: 100px;">
+        </a>
+        <!-- <p class="muted" style="margin:0;max-width:32ch;">Diet meals, delivered. Built for the gym life.</p> -->
+      </div>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <p class="copyright">© 2026 FitBite. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var cells = document.querySelectorAll('.gcell');
+  var lightbox = document.getElementById('lightbox');
+  var lightboxImg = document.getElementById('lightbox-img');
+  var lightboxCaption = document.getElementById('lightbox-caption');
+  var closeBtn = document.getElementById('lightbox-close');
+  var lastFocused = null;
+
+  function openLightbox(cell) {
+    var img = cell.querySelector('img');
+    lastFocused = cell;
+    lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt;
+    lightboxCaption.textContent = cell.dataset.caption || '';
+    lightbox.hidden = false;
+    document.body.style.overflow = 'hidden';
+    closeBtn.focus();
+  }
+
+  function closeLightbox() {
+    lightbox.hidden = true;
+    lightboxImg.src = '';
+    document.body.style.overflow = '';
+    if (lastFocused) lastFocused.focus();
+  }
+
+  cells.forEach(function (cell) {
+    cell.addEventListener('click', function () { openLightbox(cell); });
+  });
+
+  closeBtn.addEventListener('click', closeLightbox);
+
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !lightbox.hidden) closeLightbox();
+  });
+})();
+
+ (function() {
+    const toggleBtn = document.getElementById('menuToggle');
+    const nav = document.getElementById('mainNav');
+
+    if (toggleBtn && nav) {
+      toggleBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        nav.classList.toggle('active');
+        // Update aria-expanded for accessibility (optional improvement)
+        const expanded = nav.classList.contains('active');
+        toggleBtn.setAttribute('aria-expanded', expanded);
+      });
+
+      // Close menu when clicking on a nav link (mobile friendly)
+      const navLinks = document.querySelectorAll('.nav-links a, .nav-cta a');
+      navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+          if (window.innerWidth <= 768) {
+            nav.classList.remove('active');
+            toggleBtn.setAttribute('aria-expanded', 'false');
+          }
+        });
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>
