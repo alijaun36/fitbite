@@ -647,6 +647,22 @@ p{ margin: 0 0 1em 0; color: var(--ink); }
   .footer-grid{ flex-direction: column; }
 }
 
+.gallery-grid > :nth-child(5) {
+    grid-column: 4 / span 2;
+}
+
+.gallery-grid > :nth-child(4) {
+    /* display: block; */
+    grid-column: 2 / span 2;
+}
+.gallery-grid > * {
+    grid-column: span 2;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 70px;
+}
 
 
 
@@ -996,6 +1012,20 @@ p{ margin: 0 0 1em 0; color: var(--ink); }
 
       .contact-card {
         padding: 24px 14px;
+      }
+
+       .gallery-grid > * {
+          grid-column: span 6;
+      }
+
+       .gallery-grid {
+          gap: 30px;
+      }
+       .gallery-grid > :nth-child(4) {
+          grid-column: 0 / span 2;
+      }
+       .gallery-grid > :nth-child(5) {
+          grid-column: 0 / span 2;
       }
     }
 
